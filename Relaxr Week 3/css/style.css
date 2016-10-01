@@ -1,0 +1,220 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: white;
+     line-height: 1.4;
+     font-family: 'Open Sans';
+     width: 1200px;
+     margin: auto;
+}
+
+header {
+  height: 90px;
+
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+  padding: 40px 100px 40px 100px;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  width: 800px;
+  display: inline-block;
+  float: right;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#body {
+  width: 80%;
+  background-color: #f0efef;
+  height: 100%;
+  float: left;
+}
+
+#container {
+  background-color: #f0efef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+#sideBar {
+  width: 20%;
+  height: 100%;
+  background-color: #f0efef;
+  float: right;
+}
+
+#sideBarContent{
+  background-color: #f0efef;
+}
+
+#mainHeader {
+  background-color: #033048;
+  padding: 15px 100px 15px 100px;
+}
+
+#navigationLinks {
+  display: inline;
+}
+
+#navigationList {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#articles{
+  width: 700px;
+  margin-left: 100px;
+}
+
+#adUnit{
+  width: 240px;
+  height: 550px;
+  background-color: white;
+  padding: 20px;
+}
+
+#copyright{
+  padding: 40px 0px 20px 0px;
+}
+
+.navigationLink{
+  float: right;
+  padding: 15px;
+}
+
+.websiteTitle{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.whiteText{
+  color: white;
+}
+
+.yellowText{
+  color: #f9e42e;
+}
+
+.articleTitle{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.articleCopy {
+  font-size: 25px;
+  font-height: 30px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.articleDivide {
+  padding: 10px;
+}
+
+.readMore{
+  text-align: right;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.signUp{
+  background-color: #f9e42e;
+  padding: 20px;
+  height: 100px;
+  width: 1200px;
+}
+
+.signUpButton {
+  background-color: #033048;
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  padding: 20px 50px 20px 50px;
+}
+
+.sideBarTitle{
+  font-size: 25px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.sideBarCopy {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.learnMore{
+  font-size: 18px;
+  font-weight: 800;
+  font-color: 033048;
+  padding: 10px;
+}
+
+.socialMedia{
+  padding: 20px;
+}
+

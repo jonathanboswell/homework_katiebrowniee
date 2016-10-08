@@ -126,8 +126,7 @@ ul {
 
 #adUnit{
   width: 240px;
-  height: 550px;
-  background-color: white;
+  background-color: #f0efef;
   padding: 20px;
 }
 
@@ -170,11 +169,35 @@ ul {
   padding: 10px;
 }
 
-.readMore{
+.readMore1{
   text-align: right;
   font-size: 25px;
   font-weight: 600;
   padding: 5px;
+  cursor: pointer;
+}
+
+.readMoreContent1{
+  display: none;
+}
+
+.readMore2{
+  text-align: right;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.readMoreContent2{
+  display: none;
+}
+
+.readMoreText{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #606161;
 }
 
 .signUp{

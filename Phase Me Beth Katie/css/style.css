@@ -1,0 +1,159 @@
+body {
+  margin: 3em;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+	font-family:'Amatic SC', cursive;
+	font-weight: light;
+	font-size: 90px;
+	color: #e7e7e7;
+	letter-spacing: 10px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: white;
+	letter-spacing: 2px;
+	margin: 5px;
+}
+
+
+.choices {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 20px;
+	height: 250px;
+
+}
+
+.choices2 {
+	float:left;
+	width: 50%;
+	text-align: center;
+	padding: 40px;
+	
+}
+
+.phaseButton{
+
+	background-color: black;
+	font-family: 'Amatic SC', cursive;
+	font-weight: light;
+	font-size: 25px;
+    color: white;
+    width: 50px;
+    padding: 5px;
+    margin: 7px;
+    border-radius: 10px;
+    border: 1.5px solid #e7e7e7;
+	cursor: pointer;
+
+
+}
+.phaseButton:hover{
+	background-color: #e7e7e7;
+	color: black;
+}
+
+ul{
+	list-style: none;
+
+}
+
+#nav {
+	text-align: center;
+}
+
+#moon{
+	margin: 0 auto;
+}
+
+#select{
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#week {
+	text-align: center;
+
+}
+
+
+#buttonOptions {
+	display: block;
+}
+.default
+{
+	background-image: url("../images/MOONIMAGES-02.png");
+	background-size: 700px;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.monday
+{
+	background-image: url(../images/MOONIMAGES-02.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+}
+
+.tuesday{
+	background-image: url(../images/MOONIMAGES-03.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+.wednesday{
+	background-image: url(../images/MOONIMAGES-04.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+.thursday{
+	background-image: url(../images/MOONIMAGES-05.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+.friday{
+	background-image: url(../images/MOONIMAGES-06.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+.saturday{
+	background-image: url(../images/MOONIMAGES-07.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+.sunday{
+	background-image: url(../images/MOONIMAGES-08.png);
+	background-size: 700px;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+
+}
+
+
+

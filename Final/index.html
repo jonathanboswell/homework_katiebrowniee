@@ -2,13 +2,27 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/style.css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Oswald:700|Unica+One" rel="stylesheet">
 </head>
 <body>
-	<div id=container>
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="/images/Snapshots/Strum-Away.jpg" class="fullscreen-bg__video">
+        <source src="images/WEBM/Strum-Away.webm" type="video/webm">
+        <source src="images/MP4/Strum-Away.mp4" type="video/mp4">
+        <source src="images/OGV/Strum-Away.ogv" type="video/ogg">
+
+    </video>
+</div>
+
+	<div id="container">
+
+	<h1 id="title">algorhythm</h1>
+	<p id="subtitle">type a year, listen to its best album</p>
 		<form>
-		  <input id="searchBar" placeholder="type a date!">
+		  <input id="searchBar" autofocus="autofocus" autocomplete="off" maxlength="4">
 		</form>
-		  <button class="searchButtons">randomize</button>
+		  <center><button id="searchButton">random</button></center>
 	</div>
 </body>
 </html>
